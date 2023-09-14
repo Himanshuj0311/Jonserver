@@ -1,0 +1,94 @@
+/* Add your CSS styles for both pages here */
+/* Example styles for login page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #007bff; /* Navbar background color */
+    color: #fff; /* Text color for navbar links */
+    padding: 10px 0;
+    text-align: center;
+   margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Navigation links styles */
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between navbar links */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color from the navbar */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style for the active link (e.g., current page) */
+.nav-list li a.active {
+    color: #ffcd00; /* Change active link color */
+}
+
+/* Hover effect for navigation links */
+.nav-list li a:hover {
+    color: #ffcd00; /* Change link color on hover */
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* text-align: center; */
+    /* margin-right: 400px; */
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Dashboard - Dog Expo</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <div id="filter">
+        <label for="genderFilter">Filter by Gender:</label>
+        <select id="genderFilter">
+            <option value="all">All</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    <div id="search">
+        <label for="nameSearch">Search by Name:</label>
+        <input type="text" id="nameSearch">
+    </div>
+    <div id="sort">
+        <label for="ageSort">Sort by Age:</label>
+        <select id="ageSort">
+            <option value="all">All</option>
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+        </select>
+    </div>
+    <div id="dogCards">
+        <!-- Dog cards will be displayed here dynamically -->
+    </div>
+
+    <script src="./JS/das.js"></script>
+</body>
+</html>
